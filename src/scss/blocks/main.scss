@@ -1,1 +1,27 @@
 /* ESTILOS DEL MAIN */
+
+.container{
+    background-color: rgb(50, 50, 50);
+    width: 400px;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 3rem;
+    &-inputs{
+        display: block;
+    }
+    &-thanks{
+        display: none;
+    }
+    &__inputs{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
